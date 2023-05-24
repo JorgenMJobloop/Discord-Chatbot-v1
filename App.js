@@ -10,7 +10,7 @@ client.on("message", (msg) => {
 });
 
 client.on("ready", () => {
-  console.log("");
+  console.log(``);
 });
 
 client.login(token);
