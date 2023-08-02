@@ -13,4 +13,4 @@ client.on("ready", () => {
   console.log(``);
 });
 
-client.login(token);
+client.login(oauthToken);
