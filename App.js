@@ -1,5 +1,6 @@
 const Discord = require("discord.js");
-const oauthToken = ""; // oauth token goes here.
+const dotenv = require("dotenv").config();
+const oauthToken = process.env.API_KEY // oauth token goes here.
 //const GPTAPIData = ""; // ChatGPT API Data goes here. -> not being used in
 //							   production
 //							   as the price
@@ -7,7 +8,7 @@ const oauthToken = ""; // oauth token goes here.
 //							   are too expensive.
 const client = new Discord.Client();
 const coolCat = "Cool Cat";
-
+console.log(oauthToken)
 
 client.on("message", (msg) => {
   if (msg.content === "") {
