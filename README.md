@@ -5,7 +5,7 @@ A chatbot for discord built in NodeJS.
 
 #Usage
 ```sh
-    npm install discord.js
+    npm install discord.js --save-dev
     //installs the depending npm package discord.js
     node App.js
     // starts the Bot from ./CWD/App.js
