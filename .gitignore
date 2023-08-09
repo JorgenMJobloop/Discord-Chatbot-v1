@@ -1,5 +1,5 @@
 .env
-./devcontainer
+/.devcontainer
 /node_modules
 config-json
 .secrets.json
